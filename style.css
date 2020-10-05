@@ -135,9 +135,12 @@ header nav {
 }
 
 .social-link li {
-    padding: 40px;
-    display: inline;
+    display: block;
 }
+
+
+
+
 
 .menu-toggle {
     color: #fff;
