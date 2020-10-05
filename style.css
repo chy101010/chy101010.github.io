@@ -1,0 +1,140 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#container {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+#header {
+    background-color: pink;
+    padding: 10px;
+    height: 100px;
+}
+
+#header #logo {
+    float: left;
+    padding: 10px;
+    margin: 0;
+    max-block-size: 80px;
+    cursor: pointer;
+}
+
+#nav_menu {
+    float: right;
+    padding-top: 30px;
+}
+
+.nav_links ul {
+    display: none;
+}
+
+.nav_links li {
+    display: inline;
+    padding: 5px 10px;
+}
+
+.nav_links li a {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: azure;
+    text-decoration: none;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: skyblue;
+}
+
+#intro {
+    height: 100vh;
+    background-image: url("images/back-ground.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: ivory;
+    min-height: 400px;
+}
+
+.profile {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 30%;
+    border-radius: 10%;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.avatar {
+    width: 50%;
+    border-radius: 70%;
+    height: auto;
+    margin-top: auto;
+}
+
+
+#about {
+    height: 30%;
+    background:linear-gradient(#6699ff, #e6ccff);
+    display: flex;
+    align-items: center;
+    color: azure;
+    flex-direction: column;
+}
+
+.text-box {
+    margin-bottom: 2%;
+    width: 50%;
+}
+
+.section-header {
+    color: azure;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.section-title{
+    border-style: solid;
+}
+
+
+#projects {
+    background: linear-gradient(#ff9999, #66ffcc);
+    text-align: center;
+}
+
+.button {
+    color: gray;
+    border-style: solid;
+    border-radius: 15%;
+    padding: 2%;
+}
+
+.buffer-top {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#contact {
+    height: 200px;
+    background: linear-gradient(#ffff99, #66ccff);
+    text-align: center;
+}
+
+.icon:hover {
+    cursor: pointer;
+    color: deepskyblue;
+}
+
+.social-link li {
+    padding: 40px;
+    display: inline;
+}
