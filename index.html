@@ -28,21 +28,19 @@
 
 
 <body>
-<div id="container" >
-
 <!--navi-->
 <header id="header">
     <div class="container">
         <div><img id="logo" src="images/logo.png" alt="logo"></div>
-
-<!--        <nav id="nav_menu">-->
-<!--            <ul class="nav_links">-->
-<!--                <li><a href="#intro">Home</a></li>-->
-<!--                <li><a href="#about">About</a></li>-->
-<!--                <li><a href="#projects">Project</a></li>-->
-<!--                <li><a href="#contact">Contact</a></li>-->
-<!--            </ul>-->
-<!--        </nav>-->
+        <nav>
+            <ul class="nav_links">
+                <li><a href="#intro" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle"><i class="fas fa-bars"></i></div>
     </div>
 </header>
 
@@ -148,8 +146,15 @@
         </div>
     </div>
 </section>
-</div>
 
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.menu-toggle').click(function () {
+            $('nav').toggleClass('active')
+        })
+    })
+</script>
 
 </body>
 
